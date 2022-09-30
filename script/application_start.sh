@@ -15,6 +15,7 @@ npm install
 #build the code
 
 npm run build
+pm2 -f start app.js
 
 #start our node app in the background
 
