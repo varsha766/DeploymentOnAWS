@@ -13,11 +13,11 @@ files:
 hooks:
 
  ApplicationStop:
-   location: scripts/application_stop.sh
+   -location: scripts/application_stop.sh
    runas: ec2-user
  BeforeInstall:
-   location: scripts/application_install.sh
+   -location: scripts/application_install.sh
    runas: ec2-user
  ApplicationStart:
-  location: scripts/application_start.sh
+  -location: scripts/application_start.sh
   runas: ec2-user
