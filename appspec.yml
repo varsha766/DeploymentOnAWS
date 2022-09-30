@@ -20,4 +20,4 @@ hooks:
    runas: ec2-user
  ApplicationStart:
   location: scripts/application_start.sh
-   runas: ec2-user
+  runas: ec2-user
