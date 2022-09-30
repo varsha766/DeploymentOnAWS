@@ -11,10 +11,6 @@ files:
     group: ec2-user
 
 hooks:
-
- ApplicationStop:
-   -location: scripts/application_stop.sh
-   runas: ec2-user
  BeforeInstall:
    -location: scripts/application_install.sh
    runas: ec2-user
